@@ -10,24 +10,26 @@
 		753A55C31BB073E900254F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753A55C21BB073E900254F27 /* AppDelegate.swift */; };
 		753A55C81BB073E900254F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753A55C61BB073E900254F27 /* Main.storyboard */; };
 		753A55CA1BB073E900254F27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753A55C91BB073E900254F27 /* Images.xcassets */; };
-		753A55CD1BB073E900254F27 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 753A55CB1BB073E900254F27 /* LaunchScreen.xib */; };
 		753A55E31BB0753B00254F27 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753A55E21BB0753B00254F27 /* MenuViewController.swift */; };
 		753A55E51BB0755100254F27 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753A55E41BB0755100254F27 /* BaseViewController.swift */; };
-		C6EEF9F61CB7E2AD00A3DC6D /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF9F51CB7E2AD00A3DC6D /* PlayVC.swift */; };
-		C6EEF9F81CB7E4E000A3DC6D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF9F71CB7E4E000A3DC6D /* HomeVC.swift */; };
+		BE539D1E20E0865900C163A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE539D1D20E0865900C163A1 /* LaunchScreen.storyboard */; };
+		BEBD896F20E062180042EBED /* logo_vivaz_home.png in Resources */ = {isa = PBXBuildFile; fileRef = BEBD896E20E062170042EBED /* logo_vivaz_home.png */; };
+		C6EEF9F61CB7E2AD00A3DC6D /* PreferenciasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF9F51CB7E2AD00A3DC6D /* PreferenciasViewController.swift */; };
+		C6EEF9F81CB7E4E000A3DC6D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EEF9F71CB7E4E000A3DC6D /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		753A55BD1BB073E900254F27 /* AKSwiftSlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKSwiftSlideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		753A55BD1BB073E900254F27 /* Vivaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vivaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		753A55C11BB073E900254F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		753A55C21BB073E900254F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		753A55C71BB073E900254F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		753A55C91BB073E900254F27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		753A55CC1BB073E900254F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		753A55E21BB0753B00254F27 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		753A55E41BB0755100254F27 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		C6EEF9F51CB7E2AD00A3DC6D /* PlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
-		C6EEF9F71CB7E4E000A3DC6D /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BE539D1D20E0865900C163A1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEBD896E20E062170042EBED /* logo_vivaz_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_vivaz_home.png; sourceTree = "<group>"; };
+		C6EEF9F51CB7E2AD00A3DC6D /* PreferenciasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenciasViewController.swift; sourceTree = "<group>"; };
+		C6EEF9F71CB7E4E000A3DC6D /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +46,7 @@
 		753A55B41BB073E900254F27 = {
 			isa = PBXGroup;
 			children = (
-				753A55BF1BB073E900254F27 /* AKSwiftSlideMenu */,
+				753A55BF1BB073E900254F27 /* Vivaz */,
 				753A55BE1BB073E900254F27 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,41 +54,34 @@
 		753A55BE1BB073E900254F27 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				753A55BD1BB073E900254F27 /* AKSwiftSlideMenu.app */,
+				753A55BD1BB073E900254F27 /* Vivaz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		753A55BF1BB073E900254F27 /* AKSwiftSlideMenu */ = {
+		753A55BF1BB073E900254F27 /* Vivaz */ = {
 			isa = PBXGroup;
 			children = (
+				BEBD896E20E062170042EBED /* logo_vivaz_home.png */,
 				753A55C21BB073E900254F27 /* AppDelegate.swift */,
-				C6EEF9F71CB7E4E000A3DC6D /* HomeVC.swift */,
+				C6EEF9F71CB7E4E000A3DC6D /* MainViewController.swift */,
 				753A55E41BB0755100254F27 /* BaseViewController.swift */,
 				753A55E21BB0753B00254F27 /* MenuViewController.swift */,
-				C6EEF9F51CB7E2AD00A3DC6D /* PlayVC.swift */,
+				C6EEF9F51CB7E2AD00A3DC6D /* PreferenciasViewController.swift */,
 				753A55C61BB073E900254F27 /* Main.storyboard */,
 				753A55C91BB073E900254F27 /* Images.xcassets */,
-				753A55CB1BB073E900254F27 /* LaunchScreen.xib */,
-				753A55C01BB073E900254F27 /* Supporting Files */,
-			);
-			path = AKSwiftSlideMenu;
-			sourceTree = "<group>";
-		};
-		753A55C01BB073E900254F27 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				753A55C11BB073E900254F27 /* Info.plist */,
+				BE539D1D20E0865900C163A1 /* LaunchScreen.storyboard */,
 			);
-			name = "Supporting Files";
+			path = Vivaz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		753A55BC1BB073E900254F27 /* AKSwiftSlideMenu */ = {
+		753A55BC1BB073E900254F27 /* Vivaz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 753A55DC1BB073E900254F27 /* Build configuration list for PBXNativeTarget "AKSwiftSlideMenu" */;
+			buildConfigurationList = 753A55DC1BB073E900254F27 /* Build configuration list for PBXNativeTarget "Vivaz" */;
 			buildPhases = (
 				753A55B91BB073E900254F27 /* Sources */,
 				753A55BA1BB073E900254F27 /* Frameworks */,
@@ -96,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = AKSwiftSlideMenu;
+			name = Vivaz;
 			productName = AKSwiftSlideMenu;
-			productReference = 753A55BD1BB073E900254F27 /* AKSwiftSlideMenu.app */;
+			productReference = 753A55BD1BB073E900254F27 /* Vivaz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,16 +104,17 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0900;
-				ORGANIZATIONNAME = Kode;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = br.com.pixsoft;
 				TargetAttributes = {
 					753A55BC1BB073E900254F27 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = N92M5VZQZS;
 						LastSwiftMigration = 0900;
 					};
 				};
 			};
-			buildConfigurationList = 753A55B81BB073E900254F27 /* Build configuration list for PBXProject "AKSwiftSlideMenu" */;
+			buildConfigurationList = 753A55B81BB073E900254F27 /* Build configuration list for PBXProject "Vivaz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -131,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				753A55BC1BB073E900254F27 /* AKSwiftSlideMenu */,
+				753A55BC1BB073E900254F27 /* Vivaz */,
 			);
 		};
 /* End PBXProject section */
@@ -142,7 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				753A55C81BB073E900254F27 /* Main.storyboard in Resources */,
-				753A55CD1BB073E900254F27 /* LaunchScreen.xib in Resources */,
+				BE539D1E20E0865900C163A1 /* LaunchScreen.storyboard in Resources */,
+				BEBD896F20E062180042EBED /* logo_vivaz_home.png in Resources */,
 				753A55CA1BB073E900254F27 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,8 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				753A55E51BB0755100254F27 /* BaseViewController.swift in Sources */,
-				C6EEF9F61CB7E2AD00A3DC6D /* PlayVC.swift in Sources */,
-				C6EEF9F81CB7E4E000A3DC6D /* HomeVC.swift in Sources */,
+				C6EEF9F61CB7E2AD00A3DC6D /* PreferenciasViewController.swift in Sources */,
+				C6EEF9F81CB7E4E000A3DC6D /* MainViewController.swift in Sources */,
 				753A55E31BB0753B00254F27 /* MenuViewController.swift in Sources */,
 				753A55C31BB073E900254F27 /* AppDelegate.swift in Sources */,
 			);
@@ -171,14 +168,6 @@
 				753A55C71BB073E900254F27 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		753A55CB1BB073E900254F27 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				753A55CC1BB073E900254F27 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -196,12 +185,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -229,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,12 +241,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -276,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
@@ -288,12 +281,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AKSwiftSlideMenu/Info.plist;
+				DEVELOPMENT_TEAM = N92M5VZQZS;
+				INFOPLIST_FILE = "$(SRCROOT)/Vivaz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Kode.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.pixsoft.Vivaz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -301,20 +297,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AKSwiftSlideMenu/Info.plist;
+				DEVELOPMENT_TEAM = N92M5VZQZS;
+				INFOPLIST_FILE = "$(SRCROOT)/Vivaz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Kode.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.pixsoft.Vivaz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		753A55B81BB073E900254F27 /* Build configuration list for PBXProject "AKSwiftSlideMenu" */ = {
+		753A55B81BB073E900254F27 /* Build configuration list for PBXProject "Vivaz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				753A55DA1BB073E900254F27 /* Debug */,
@@ -323,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		753A55DC1BB073E900254F27 /* Build configuration list for PBXNativeTarget "AKSwiftSlideMenu" */ = {
+		753A55DC1BB073E900254F27 /* Build configuration list for PBXNativeTarget "Vivaz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				753A55DD1BB073E900254F27 /* Debug */,
